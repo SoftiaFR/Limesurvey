@@ -1,0 +1,24 @@
+{
+    "name": "archon810/smartdomdocument",
+    "description": "Overcomes a few common annoyances with the DOMDocument class",
+    "require-dev": {
+        "phpunit/phpunit": "^4.8"
+    },
+    "authors": [
+        {
+            "name": "Artem Russakovskii",
+            "email": "artem@androidpolice.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "archon810\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "archon810\\": "test"
+        }
+    }
+}
